@@ -9,7 +9,6 @@ public partial class Dashboard : Form
     public Dashboard()
     {
         InitializeComponent();
-        httpVerbSelection.SelectedItem = "GET";
     }
 
     private async void callApiButton_Click(object sender, EventArgs e)
@@ -23,11 +22,10 @@ public partial class Dashboard : Form
             systemStatus.Text = "Invalid URL";
             return;
         }
-
+        
         try
         {
             resultsText.Text = await api.CallApiAsync(apiText.Text);
-            callData.SelectedTab = resultsTab;
 
             systemStatus.Text = "Ready";
         }
@@ -36,20 +34,5 @@ public partial class Dashboard : Form
             resultsText.Text = "Error: " + ex.Message;
             systemStatus.Text = "Error";
         }
-    }
-
-    private void apiLabel_Click(object sender, EventArgs e)
-    {
-
-    }
-
-    private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-    {
-
-    }
-
-    private void resultsText_TextChanged(object sender, EventArgs e)
-    {
-
     }
 }

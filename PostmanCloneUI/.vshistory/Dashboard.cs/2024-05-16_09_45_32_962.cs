@@ -27,7 +27,6 @@ public partial class Dashboard : Form
         try
         {
             resultsText.Text = await api.CallApiAsync(apiText.Text);
-            callData.SelectedTab = resultsTab;
 
             systemStatus.Text = "Ready";
         }

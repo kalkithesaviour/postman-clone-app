@@ -38,8 +38,8 @@ partial class Dashboard
         httpVerbSelection = new ComboBox();
         callData = new TabControl();
         bodyTab = new TabPage();
-        bodyText = new TextBox();
         resultsTab = new TabPage();
+        bodyText = new TextBox();
         statusStrip.SuspendLayout();
         callData.SuspendLayout();
         bodyTab.SuspendLayout();
@@ -86,7 +86,7 @@ partial class Dashboard
         resultsText.Name = "resultsText";
         resultsText.ReadOnly = true;
         resultsText.ScrollBars = ScrollBars.Both;
-        resultsText.Size = new Size(767, 405);
+        resultsText.Size = new Size(767, 382);
         resultsText.TabIndex = 3;
         resultsText.TextChanged += resultsText_TextChanged;
         // 
@@ -124,7 +124,7 @@ partial class Dashboard
         // 
         httpVerbSelection.DropDownStyle = ComboBoxStyle.DropDownList;
         httpVerbSelection.FormattingEnabled = true;
-        httpVerbSelection.Items.AddRange(new object[] { "GET", "POST" });
+        httpVerbSelection.Items.AddRange(new object[] { "GET", "POST", "PATCH", "DELETE", "PUT" });
         httpVerbSelection.Location = new Point(121, 67);
         httpVerbSelection.Name = "httpVerbSelection";
         httpVerbSelection.Size = new Size(146, 56);
@@ -152,6 +152,17 @@ partial class Dashboard
         bodyTab.Text = "Body";
         bodyTab.UseVisualStyleBackColor = true;
         // 
+        // resultsTab
+        // 
+        resultsTab.Controls.Add(resultsText);
+        resultsTab.Location = new Point(4, 57);
+        resultsTab.Name = "resultsTab";
+        resultsTab.Padding = new Padding(3);
+        resultsTab.Size = new Size(773, 388);
+        resultsTab.TabIndex = 1;
+        resultsTab.Text = "Results";
+        resultsTab.UseVisualStyleBackColor = true;
+        // 
         // bodyText
         // 
         bodyText.BackColor = Color.White;
@@ -164,17 +175,6 @@ partial class Dashboard
         bodyText.ScrollBars = ScrollBars.Both;
         bodyText.Size = new Size(767, 382);
         bodyText.TabIndex = 4;
-        // 
-        // resultsTab
-        // 
-        resultsTab.Controls.Add(resultsText);
-        resultsTab.Location = new Point(4, 34);
-        resultsTab.Name = "resultsTab";
-        resultsTab.Padding = new Padding(3);
-        resultsTab.Size = new Size(773, 411);
-        resultsTab.TabIndex = 1;
-        resultsTab.Text = "Results";
-        resultsTab.UseVisualStyleBackColor = true;
         // 
         // Dashboard
         // 
