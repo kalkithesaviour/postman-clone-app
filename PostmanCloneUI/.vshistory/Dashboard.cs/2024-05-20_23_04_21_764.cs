@@ -45,19 +45,4 @@ public partial class Dashboard : Form
             systemStatus.Text = "Error";
         }
     }
-
-    private void apiLabel_Click(object sender, EventArgs e)
-    {
-
-    }
-
-    private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-    {
-
-    }
-
-    private void resultsText_TextChanged(object sender, EventArgs e)
-    {
-
-    }
 }

@@ -33,7 +33,7 @@ public partial class Dashboard : Form
 
         try
         {
-            resultsText.Text = await api.CallApiAsync(apiText.Text, bodyText.Text, action);
+            resultsText.Text = await api.CallApiAsync(apiText.Text, true, action);
             callData.SelectedTab = resultsTab;
             resultsTab.Focus();
 
