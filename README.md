@@ -13,7 +13,7 @@ Postman Clone provides a user-friendly interface for making GET requests to APIs
 
 ![Postman Clone App ready to run](Images/ss1.png "Ready to Run")
 
-4. Fill in your API URL and hit Go:
+4. Fill in your API URL, for example, https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=DEMO_KEY and then hit Go:
 
 ![Postman Clone App results](Images/ss2.png "Run Results")
 
