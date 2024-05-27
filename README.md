@@ -13,11 +13,11 @@ Postman Clone provides a user-friendly interface for making HTTP requests to API
 
 ![](Images/Initial.png "Ready to Run")
 
-3. Fill in your API URL, select 'GET' from the dropdown menu and hit 'Go':
+3. Fill in your API URL, select 'GET' from the dropdown menu, and hit 'Go':
 
 ![](Images/GET.png "GET request & results")
 
-4. Fill in your API URL, select 'POST' from the dropdown menu, enter your JSON text in the 'Body' tab and hit 'Go':
+4. Fill in your API URL, select 'POST' from the dropdown menu, enter your JSON text in the 'Body' tab, and hit 'Go':
 
 #### Body
 ![](Images/POST_1.png "POST request")
@@ -25,13 +25,25 @@ Postman Clone provides a user-friendly interface for making HTTP requests to API
 #### Results
 ![](Images/POST_2.png "POST results")
 
-5. Fill in your API URL, select 'PUT' from the dropdown menu, enter your JSON text in the 'Body' tab and hit 'Go':
+5. Fill in your API URL, select 'PUT' from the dropdown menu, enter your JSON text in the 'Body' tab, and hit 'Go':
 
 #### Body
 ![](Images/PUT_1.png "PUT request")
 
 #### Results
 ![](Images/PUT_2.png "PUT results")
+
+6. Fill in your API URL, select 'PATCH' from the dropdown menu, enter your JSON text in the 'Body' tab, and hit 'Go':
+
+#### Body
+![](Images/PATCH_1.png "PATCH request")
+
+#### Results
+![](Images/PATCH_2.png "PATCH results")
+
+7. Fill in your API URL, select 'DELETE' from the dropdown menu, and hit 'Go':
+
+![](Images/DELETE.png "DELETE request & results")
 
 ## Upcoming Changes
 * Adding API headers
