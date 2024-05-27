@@ -15,7 +15,7 @@ Postman Clone provides a user-friendly interface for making HTTP requests to API
 
 4. Fill in your API URL and hit 'Go':
 
-![Postman Clone App results](Images/ss2.png "Run Results")
+![](Images/ss2.png "GET request")
 
 ## Upcoming Changes
 * Adding API headers
