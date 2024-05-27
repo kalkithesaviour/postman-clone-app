@@ -19,10 +19,10 @@ Postman Clone provides a user-friendly interface for making HTTP requests to API
 
 5. Fill in your API URL, select 'POST' from the dropdown menu, enter your JSON text in the 'Body' tab and hit 'Go':
 
-  Body
+### Body
 ![](Images/POST_1.png "POST request")
 
-Results
+### Results
 ![](Images/POST_2.png "POST results")
 
 ## Upcoming Changes
