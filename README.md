@@ -11,11 +11,19 @@ Postman Clone provides a user-friendly interface for making HTTP requests to API
 1. Download the executable file from the release section.
 2. When the application launches, it should look like this:
 
-![](Images/ss1.png "Ready to Run")
+![](Images/Initial.png "Ready to Run")
 
 4. Fill in your API URL, select 'GET' from the dropdown menu and hit 'Go':
 
-![](Images/ss2.png "GET request")
+![](Images/GET.png "GET request & results")
+
+5. Fill in your API URL, select 'POST' from the dropdown menu, enter your JSON text in the 'Body' tab and hit 'Go':
+
+Body
+![](Images/POST_1.png "POST request")
+
+Results
+![](Images/POST_2.png "POST results")
 
 ## Upcoming Changes
 * Adding API headers
