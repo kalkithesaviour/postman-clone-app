@@ -13,7 +13,7 @@ Postman Clone provides a user-friendly interface for making HTTP requests to API
 
 ![](Images/ss1.png "Ready to Run")
 
-4. Fill in your API URL and hit 'Go':
+4. Fill in your API URL, select 'GET' from the dropdown menu and hit 'Go':
 
 ![](Images/ss2.png "GET request")
 
